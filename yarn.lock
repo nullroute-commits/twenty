@@ -12429,14 +12429,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/core@npm:11.1.16":
-  version: 11.1.16
-  resolution: "@nestjs/core@npm:11.1.16"
+"@nestjs/core@npm:11.1.18":
+  version: 11.1.18
+  resolution: "@nestjs/core@npm:11.1.18"
   dependencies:
     "@nuxt/opencollective": "npm:0.4.1"
     fast-safe-stringify: "npm:2.1.1"
     iterare: "npm:1.2.1"
-    path-to-regexp: "npm:8.3.0"
+    path-to-regexp: "npm:8.4.2"
     tslib: "npm:2.8.1"
     uid: "npm:2.0.2"
   peerDependencies:
@@ -12453,7 +12453,7 @@ __metadata:
       optional: true
     "@nestjs/websockets":
       optional: true
-  checksum: 10c0/1bbd899da0bd1cdde3053c258099e27aa8abb6a87e3fa2d58ebbfb74d2fab4d291ad818719eaef2a0eb0e447dbb24d5d4c1f704e5ff1029937a76aa2af0763ae
+  checksum: 10c0/324d7006b6a564cba7c7939a99928270d4e2f3c31172c596297ba97a150857458c431eae78ed5ef1c697aa754cf4179444be44184931183ed3063416cca1d381
   languageName: node
   linkType: hard
 
@@ -28438,7 +28438,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.12.0, axios@npm:^1.13.5, axios@npm:^1.6.1, axios@npm:^1.7.7, axios@npm:^1.8.3":
+"axios@npm:^1.12.0, axios@npm:^1.6.1, axios@npm:^1.7.7, axios@npm:^1.8.3":
   version: 1.13.5
   resolution: "axios@npm:1.13.5"
   dependencies:
@@ -28449,25 +28449,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.14.0":
-  version: 1.14.0
-  resolution: "axios@npm:1.14.0"
+"axios@npm:^1.15.2":
+  version: 1.16.1
+  resolution: "axios@npm:1.16.1"
   dependencies:
-    follow-redirects: "npm:^1.15.11"
+    follow-redirects: "npm:^1.16.0"
     form-data: "npm:^4.0.5"
+    https-proxy-agent: "npm:^5.0.1"
     proxy-from-env: "npm:^2.1.0"
-  checksum: 10c0/2541f4aa215a7d1842429dad006fc682d82bc0e74bd14500823f7d8cce3bbae0e0a8c328c8538946718f366ab8ce5a4c12e9ad40e5a0f3482ff8bff0cd115d45
-  languageName: node
-  linkType: hard
-
-"axios@npm:^1.9.0":
-  version: 1.13.6
-  resolution: "axios@npm:1.13.6"
-  dependencies:
-    follow-redirects: "npm:^1.15.11"
-    form-data: "npm:^4.0.5"
-    proxy-from-env: "npm:^1.1.0"
-  checksum: 10c0/51fb5af055c3b85662fa97df17d986ae2c37d13bf86d50b6bb36b6b3a2dec6966a1d3a14ab3774b71707b155ae3597ed9b7babdf1a1a863d1a31840cb8e7ec71
+  checksum: 10c0/2f77e37e6552bbff8a772d058fb09500198e9188c6b20dc799d82dbe12a8cb506f6eed4e4e62a9ba612a35cbab496faa26d68f9bff14a53af6d15c3e136391a7
   languageName: node
   linkType: hard
 
@@ -33476,15 +33466,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:3.3.3":
-  version: 3.3.3
-  resolution: "dompurify@npm:3.3.3"
+"dompurify@npm:3.4.0":
+  version: 3.4.0
+  resolution: "dompurify@npm:3.4.0"
   dependencies:
     "@types/trusted-types": "npm:^2.0.7"
   dependenciesMeta:
     "@types/trusted-types":
       optional: true
-  checksum: 10c0/097c14a21a3f6cb95beded9ecd255f7c3512c42767b048390c747b0fe35736f6a71e02320fc50a9ac2be645834b463e4760915d595d502a56452daf339d0ea9c
+  checksum: 10c0/5593ac44ee20b9aa521c2120884effc98927fb9128c548183c75e79e0a04357c62ee913a049a267c8f396cb8c9d520ecf72562826c5524c46d4fe03c12063638
   languageName: node
   linkType: hard
 
@@ -36222,6 +36212,16 @@ __metadata:
     debug:
       optional: true
   checksum: 10c0/d301f430542520a54058d4aeeb453233c564aaccac835d29d15e050beb33f339ad67d9bddbce01739c5dc46a6716dbe3d9d0d5134b1ca203effa11a7ef092343
+  languageName: node
+  linkType: hard
+
+"follow-redirects@npm:^1.16.0":
+  version: 1.16.0
+  resolution: "follow-redirects@npm:1.16.0"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: 10c0/a1e2900163e6f1b4d1ed5c221b607f41decbab65534c63fe7e287e40a5d552a6496e7d9d7d976fa4ba77b4c51c11e5e9f683f10b43011ea11e442ff128d0e181
   languageName: node
   linkType: hard
 
@@ -46191,10 +46191,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemailer@npm:8.0.4":
-  version: 8.0.4
-  resolution: "nodemailer@npm:8.0.4"
-  checksum: 10c0/5fb6fa72645b541c18b84b861de46f4740449e1d7c987b4d9ef715d815d613f93262225bc319e217df6215d6f123efadb9a412dcf937fe0a41cbecf279dfb2a0
+"nodemailer@npm:8.0.5":
+  version: 8.0.5
+  resolution: "nodemailer@npm:8.0.5"
+  checksum: 10c0/5e8450499bd059c56d74ba96fa5f9928de2ecdae0d53c083dba5661d797114c1f9524d30f992d0263cc5a7dcf5a54b9c1d92dc1f766da150c9d0bde7d3798431
   languageName: node
   linkType: hard
 
@@ -48085,6 +48085,13 @@ __metadata:
   version: 8.3.0
   resolution: "path-to-regexp@npm:8.3.0"
   checksum: 10c0/ee1544a73a3f294a97a4c663b0ce71bbf1621d732d80c9c9ed201b3e911a86cb628ebad691b9d40f40a3742fe22011e5a059d8eed2cf63ec2cb94f6fb4efe67c
+  languageName: node
+  linkType: hard
+
+"path-to-regexp@npm:8.4.2":
+  version: 8.4.2
+  resolution: "path-to-regexp@npm:8.4.2"
+  checksum: 10c0/05b115c49b47ad252ce05faa32930f643f23769c68b8bcfe78ad833545140c48bbffb3266986d6c8d5db13a64cf12e07e0d72d9882cab830efeefa553533ebaf
   languageName: node
   linkType: hard
 
@@ -56071,7 +56078,7 @@ __metadata:
     "@recallai/desktop-sdk": "npm:^2.0.0"
     "@timfish/forge-externals-plugin": "npm:^0.2.1"
     "@vercel/webpack-asset-relocator-loader": "npm:^1.7.3"
-    axios: "npm:^1.9.0"
+    axios: "npm:^1.15.2"
     codemirror: "npm:^6.0.1"
     concurrently: "npm:^9.2.1"
     css-loader: "npm:^6.11.0"
@@ -56372,7 +56379,7 @@ __metadata:
     "@types/react-dom": "npm:^19.0.0"
     "@typescript/native-preview": "npm:^7.0.0-dev.20260116.1"
     "@vitest/coverage-v8": "npm:^4.0.18"
-    axios: "npm:^1.13.5"
+    axios: "npm:^1.15.2"
     chalk: "npm:^5.3.0"
     chokidar: "npm:^4.0.0"
     commander: "npm:^12.0.0"
@@ -56455,7 +56462,7 @@ __metadata:
     "@nestjs/cli": "npm:^11.0.16"
     "@nestjs/common": "npm:11.1.16"
     "@nestjs/config": "npm:3.3.0"
-    "@nestjs/core": "npm:11.1.16"
+    "@nestjs/core": "npm:11.1.18"
     "@nestjs/devtools-integration": "npm:^0.2.1"
     "@nestjs/event-emitter": "npm:2.1.0"
     "@nestjs/graphql": "patch:@nestjs/graphql@12.1.1#./patches/@nestjs+graphql+12.1.1.patch"
@@ -56533,7 +56540,7 @@ __metadata:
     ai: "npm:6.0.97"
     apollo-server-core: "npm:3.13.0"
     archiver: "npm:7.0.1"
-    axios: "npm:^1.13.5"
+    axios: "npm:^1.15.2"
     axios-retry: "npm:^4.5.0"
     babel-plugin-module-resolver: "npm:5.0.2"
     bcrypt: "npm:^6.0.0"
@@ -56552,7 +56559,7 @@ __metadata:
     date-fns: "npm:2.30.0"
     deep-equal: "npm:2.2.3"
     digest-fetch: "npm:^3.1.1"
-    dompurify: "npm:3.3.3"
+    dompurify: "npm:3.4.0"
     dotenv: "npm:16.4.5"
     exa-js: "npm:^2.11.0"
     express: "npm:4.22.1"
@@ -56603,7 +56610,7 @@ __metadata:
     ms: "npm:2.1.3"
     nest-commander: "npm:^3.19.1"
     node-ical: "npm:^0.20.1"
-    nodemailer: "npm:^8.0.4"
+    nodemailer: "npm:^8.0.5"
     openapi-types: "npm:12.1.3"
     openid-client: "npm:^5.7.0"
     otplib: "npm:^12.0.1"
@@ -56792,7 +56799,7 @@ __metadata:
     "@types/react-dom": "npm:^19"
     "@types/three": "npm:^0.183.1"
     "@wyw-in-js/babel-preset": "npm:^0.8.1"
-    axios: "npm:^1.14.0"
+    axios: "npm:^1.15.2"
     babel-plugin-react-compiler: "npm:1.0.0"
     framer-motion: "npm:^11.18.0"
     gray-matter: "npm:^4.0.3"
